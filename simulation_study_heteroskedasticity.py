@@ -15,9 +15,9 @@ import statsmodels.api as sm
 import scipy.stats as stats
 
 #first birthday
-bd_1 = 
+bd_1 = 0803
 #second birthday
-bd_2 = 
+bd_2 = 2507
 group_seed = bd_1 ∗ bd_2
 #seed for the random generator
-rng = np. random . default_rng ( group_seed )
+rng = np.random.default_rng(group_seed)
